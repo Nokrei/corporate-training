@@ -29,6 +29,9 @@ body {
 .lh-25 {
   line-height: 25px;
 }
+.lh-26 {
+  line-height: 26px;
+}
 .lh-27 {
   line-height: 27px;
 }
@@ -182,4 +185,28 @@ body {
   font-weight: bold;
   font-size: 35px;
   line-height: 42px;
+}
+
+/* why individual elements styles */
+.why {
+  padding-top: 140px;
+  padding-bottom: 110px;
+  background: radial-gradient(
+    56.44% 71.2% at 50% 147.67%,
+    #b6e0f5 0%,
+    rgba(182, 224, 245, 0) 100%
+  );
+}
+.why h2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  padding-bottom: 112px;
+}
+.why h6 {
+  height: 5rem;
+}
+.team-fluid img {
+  width: 100%;
+  max-height: 80vh;
 }
