@@ -9,6 +9,7 @@ p {
 }
 body {
   font-family: "Brown";
+  color: #000;
 }
 
 /* font styles */
@@ -121,4 +122,18 @@ body {
 }
 .grow-card {
   padding: 0 70px 69px 70px;
+}
+
+/* teams individual elements styles */
+.teams h2 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.team-img-grid {
+  padding-top: 43px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  column-gap: 5rem;
+  row-gap: 3rem;
 }
