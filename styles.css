@@ -3,6 +3,8 @@
   padding: 0;
 }
 h1,
+h2,
+h6,
 p {
   padding: 0;
   margin: 0;
@@ -28,6 +30,9 @@ body {
 }
 .font-16 {
   font-size: 16px;
+}
+.font-35 {
+  font-size: 35px;
 }
 .lh-24 {
   line-height: 24px;
@@ -62,6 +67,9 @@ body {
 }
 .card-shadow {
   box-shadow: 0px 11px 21px 5px rgba(0, 0, 0, 0.03);
+}
+.card-shadow2 {
+  box-shadow: 0px 4px 15px 11px rgba(0, 0, 0, 0.05);
 }
 .br-20 {
   border-radius: 20px;
@@ -284,6 +292,12 @@ body {
 .h-10r {
   min-height: 8rem;
 }
+.h-20r {
+  min-height: 20rem;
+}
+.h-30r {
+  height: 30rem;
+}
 /* expertise individual elements styles */
 .expertise {
   padding-top: 84px;
@@ -294,4 +308,34 @@ body {
   font-size: 35px;
   line-height: 42px;
   padding-bottom: 55px;
+}
+
+/* corporate individual elements styles */
+.corporate {
+  padding-top: 110px;
+}
+.corporate h2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  padding-bottom: 37px;
+}
+.blue-card {
+  position: relative;
+}
+
+.blue-card img {
+  position: absolute;
+  z-index: -1;
+  width: 97%;
+  max-height: 100%;
+}
+.blue-card p {
+  font-size: 20px;
+  line-height: 162%;
+}
+.blue-card-desc h6 {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: bold;
 }
