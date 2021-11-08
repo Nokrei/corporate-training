@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Brown";
+}
+.intro-fluid {
+  background-image: url("./images/bg-top.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+.intro-text {
+  padding-top: 147px;
+}
+.intro-text h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+.intro-text p {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+.tags-container {
+  position: absolute;
+  bottom: 52px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: auto;
+}
+.tags {
+  list-style: none;
+  color: #fff;
+}
+.tags li {
+  display: flex;
+  align-items: center;
+}
+.tag-icon {
+  font-size: 4rem;
+}
+.tag-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+}

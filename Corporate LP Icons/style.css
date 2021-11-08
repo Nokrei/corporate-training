@@ -1,0 +1,93 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?1s33p5');
+  src:  url('fonts/icomoon.eot?1s33p5#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?1s33p5') format('truetype'),
+    url('fonts/icomoon.woff?1s33p5') format('woff'),
+    url('fonts/icomoon.svg?1s33p5#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Digital-Marketing:before {
+  content: "\e900";
+}
+.icon-Data:before {
+  content: "\e901";
+}
+.icon-Entrepreneurship:before {
+  content: "\e902";
+}
+.icon-Coding:before {
+  content: "\e903";
+}
+.icon-E-commerce:before {
+  content: "\e904";
+}
+.icon-Custom-Programs:before {
+  content: "\e905";
+}
+.icon-Professionals:before {
+  content: "\e906";
+}
+.icon-In-2018:before {
+  content: "\e907";
+}
+.icon-Not-aligned:before {
+  content: "\e909";
+}
+.icon-Wrong-time:before {
+  content: "\e90a";
+}
+.icon-Forget:before {
+  content: "\e90b";
+}
+.icon-Identify:before {
+  content: "\e90c";
+}
+.icon-Design:before {
+  content: "\e90d";
+}
+.icon-Implement:before {
+  content: "\e90e";
+}
+.icon-Enhance:before {
+  content: "\e90f";
+}
+.icon-B2B:before {
+  content: "\e912";
+}
+.icon-Entrepreneurship-2:before {
+  content: "\e915";
+}
+.icon-Digital-Skill-Assessment:before {
+  content: "\e916";
+}
+.icon-1:before {
+  content: "\e91a";
+}
+.icon-5:before {
+  content: "\e91b";
+}
+.icon-2:before {
+  content: "\e91c";
+}
+.icon-3:before {
+  content: "\e91d";
+}
