@@ -206,7 +206,30 @@ body {
 .why h6 {
   height: 5rem;
 }
-.team-fluid img {
+
+/* learn individual elements styles */
+.learn-fluid img {
   width: 100%;
   max-height: 80vh;
+}
+.learn {
+  padding-top: 100px;
+  padding-bottom: 110px;
+  background: radial-gradient(
+    56.44% 71.2% at 50% 147.67%,
+    #b6e0f5 0%,
+    rgba(182, 224, 245, 0) 100%
+  );
+}
+.learn h1 {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 58px;
+}
+.learn-desc {
+  position: relative;
+}
+.learn-desc-abs {
+  position: absolute;
+  bottom: 0;
 }
