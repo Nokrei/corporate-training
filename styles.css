@@ -2,9 +2,69 @@
   margin: 0;
   padding: 0;
 }
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
 body {
   font-family: "Brown";
 }
+
+/* font styles */
+.font-20-bold {
+  font-weight: bold;
+  font-size: 20px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.lh-24 {
+  line-height: 24px;
+}
+.lh-25 {
+  line-height: 25px;
+}
+.lh-27 {
+  line-height: 27px;
+}
+
+/* icon styles */
+.icon-black {
+  color: #010101;
+}
+.icon-size-5 {
+  font-size: 5rem;
+}
+
+/* card styles */
+.bg-white {
+  background-color: #fff;
+}
+.card-shadow {
+  box-shadow: 0px 11px 21px 5px rgba(0, 0, 0, 0.03);
+}
+.br-20 {
+  border-radius: 20px;
+}
+
+/* button styles */
+.btn-padding {
+  padding: 1.5rem 3rem;
+}
+.btn-blue-bg {
+  background: #0052a2;
+}
+.btn-white-text {
+  color: #fff;
+  font-size: 26px;
+  line-height: 31px;
+}
+.btn-border {
+  border-radius: 57px;
+}
+
+/* intro individual elements styles */
 .intro-fluid {
   background-image: url("./images/bg-top.png");
   background-position: center;
@@ -21,11 +81,7 @@ body {
   font-size: 48px;
   line-height: 58px;
 }
-.intro-text p {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 27px;
-}
+
 .tags-container {
   position: absolute;
   bottom: 52px;
@@ -49,4 +105,20 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 19px;
+}
+
+/* grow individual elements styles */
+.grow-fluid {
+  background: radial-gradient(
+    59.49% 106.04% at 50% -64.55%,
+    #b6e0f5 0%,
+    rgba(182, 224, 245, 0.319757) 71.39%,
+    rgba(182, 224, 245, 0) 100%
+  );
+}
+.grow {
+  padding: 115px 0;
+}
+.grow-card {
+  padding: 0 70px 69px 70px;
 }
