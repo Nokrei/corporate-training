@@ -12,6 +12,12 @@ body {
   color: #000;
 }
 
+/* background styles */
+
+.blue-bg {
+  background: #0052a2;
+}
+
 /* font styles */
 .font-20-bold {
   font-weight: bold;
@@ -37,6 +43,9 @@ body {
 }
 .font-blue {
   color: #0052a2;
+}
+.font-white {
+  color: #fff;
 }
 
 /* icon styles */
@@ -65,8 +74,7 @@ body {
 .btn-blue-bg {
   background: #0052a2;
 }
-.btn-white-text {
-  color: #fff;
+.btn-text {
   font-size: 26px;
   line-height: 31px;
 }
@@ -272,4 +280,18 @@ body {
 }
 .h-11r {
   height: 11rem;
+}
+.h-10r {
+  min-height: 8rem;
+}
+/* expertise individual elements styles */
+.expertise {
+  padding-top: 84px;
+  padding-bottom: 86px;
+}
+.expertise h2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  padding-bottom: 55px;
 }
