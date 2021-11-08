@@ -17,6 +17,9 @@ body {
   font-weight: bold;
   font-size: 20px;
 }
+.font-12 {
+  font-size: 12px;
+}
 .font-16 {
   font-size: 16px;
 }
@@ -28,6 +31,9 @@ body {
 }
 .lh-27 {
   line-height: 27px;
+}
+.font-blue {
+  color: #0052a2;
 }
 
 /* icon styles */
@@ -63,6 +69,14 @@ body {
 }
 .btn-border {
   border-radius: 57px;
+}
+
+/* border styles */
+.border-btm {
+  border-bottom: 1.4px solid #e5e5e5;
+}
+.border-r {
+  border-right: 1.4px solid #e5e5e5;
 }
 
 /* intro individual elements styles */
@@ -122,6 +136,7 @@ body {
 }
 .grow-card {
   padding: 0 70px 69px 70px;
+  height: 100%;
 }
 
 /* teams individual elements styles */
@@ -131,9 +146,40 @@ body {
 }
 .team-img-grid {
   padding-top: 43px;
+  padding-bottom: 93px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: center;
   column-gap: 5rem;
   row-gap: 3rem;
+}
+
+/* training individual elements styles */
+.training-fluid {
+  background: radial-gradient(
+    62.24% 110.94% at 50% -30.01%,
+    #b6e0f5 0%,
+    rgba(182, 224, 245, 0.319757) 71.39%,
+    rgba(182, 224, 245, 0) 100%
+  );
+}
+.training {
+  padding-top: 110px;
+}
+.training h2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  padding-top: 12px;
+}
+.training-card {
+  padding: 30px 70px 50px 70px;
+}
+.training-details {
+  padding-top: 123px;
+}
+.training-pcnt {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
 }
