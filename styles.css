@@ -60,7 +60,7 @@ body {
 
 /* button styles */
 .btn-padding {
-  padding: 1.5rem 3rem;
+  padding: 1.3rem 5rem;
 }
 .btn-blue-bg {
   background: #0052a2;
@@ -232,4 +232,44 @@ body {
 .learn-desc-abs {
   position: absolute;
   bottom: 0;
+}
+
+/* framework individual elements styles */
+.framework {
+  padding-top: 111px;
+  padding-bottom: 104px;
+}
+.framework h2 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 42px;
+  padding-bottom: 44px;
+}
+.framework-bg {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #b6e0f5 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.framework-img-wrap {
+  position: relative;
+}
+.framework-img-under {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.framework-img-over {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 2;
+}
+.h-11r {
+  height: 11rem;
 }
