@@ -405,4 +405,8 @@ body {
     width: 97%;
     height: 100%;
   }
+  .border-r,
+  .border-btm {
+    border: none;
+  }
 }
