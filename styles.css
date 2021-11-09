@@ -86,6 +86,9 @@ body {
 .btn-padding {
   padding: 1.3rem 5rem;
 }
+.btn-padding-narrow {
+  padding: 1.3rem 4rem;
+}
 .btn-blue-bg {
   background: #0052a2;
 }
