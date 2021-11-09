@@ -50,6 +50,9 @@ body {
 .lh-27 {
   line-height: 27px;
 }
+.lh-35 {
+  line-height: 35px;
+}
 .font-blue {
   color: #0052a2;
 }
@@ -105,7 +108,7 @@ body {
 /* intro individual elements styles */
 .intro-fluid {
   background-image: url("./images/bg-top.png");
-  background-position: center;
+
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -169,6 +172,7 @@ body {
 }
 .teams img {
   max-width: 100%;
+  margin-bottom: 2rem;
 }
 
 /* training individual elements styles */
@@ -244,6 +248,7 @@ body {
 .learn-desc-abs {
   position: absolute;
   bottom: 0;
+  max-width: 100%;
 }
 
 /* framework individual elements styles */
