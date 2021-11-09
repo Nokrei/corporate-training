@@ -13,6 +13,10 @@ body {
   font-family: "Brown";
   color: #000;
 }
+html,
+body {
+  overflow-x: hidden;
+}
 
 /* background styles */
 
@@ -163,14 +167,8 @@ body {
   font-weight: bold;
   font-size: 35px;
 }
-.team-img-grid {
-  padding-top: 43px;
-  padding-bottom: 93px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  align-items: center;
-  column-gap: 5rem;
-  row-gap: 3rem;
+.teams img {
+  max-width: 100%;
 }
 
 /* training individual elements styles */
@@ -292,6 +290,7 @@ body {
 }
 .h-20r {
   min-height: 20rem;
+  height: 100%;
 }
 .h-30r {
   height: 30rem;
@@ -363,20 +362,47 @@ body {
   );
   height: 30rem;
   position: absolute;
-  max-width: 99%;
+
   bottom: 0;
   transform: rotate(180deg);
   z-index: -1;
 }
 
-@media only screen and (max-width: 1200px) {
-  .team-img-grid {
-    padding-top: 43px;
-    padding-bottom: 93px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    align-items: center;
-    column-gap: 5rem;
-    row-gap: 3rem;
+@media only screen and (max-width: 992px) {
+  .framework-img-under {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    max-width: 100%;
+  }
+  .framework-img-over {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 2;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .blue-card {
+    position: relative;
+    height: 100%;
+    max-width: 98%;
+  }
+  .blue-card-desc h6 {
+    font-size: 18px;
+  }
+  .blue-card-desc p {
+    font-size: 14px;
+  }
+  .blue-card img {
+    position: absolute;
+    z-index: -1;
+    width: 97%;
+    height: 100%;
   }
 }
