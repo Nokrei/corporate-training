@@ -108,6 +108,27 @@ body {
   border-right: 1.4px solid #e5e5e5;
 }
 
+/* heights */
+.h-11r {
+  height: 11rem;
+}
+.h-10r {
+  min-height: 8rem;
+}
+.h-15r {
+  min-height: 15rem;
+}
+.h-20r {
+  min-height: 20rem;
+  height: 100%;
+}
+.h-25r {
+  min-height: 25rem;
+}
+.h-30r {
+  height: 30rem;
+}
+
 /* intro individual elements styles */
 .intro-fluid {
   background-image: url("./images/bg-top.png");
@@ -290,19 +311,7 @@ body {
   margin: auto;
   z-index: 2;
 }
-.h-11r {
-  height: 11rem;
-}
-.h-10r {
-  min-height: 8rem;
-}
-.h-20r {
-  min-height: 20rem;
-  height: 100%;
-}
-.h-30r {
-  height: 30rem;
-}
+
 /* expertise individual elements styles */
 .expertise {
   padding-top: 84px;
