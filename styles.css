@@ -371,19 +371,11 @@ body {
 @media only screen and (max-width: 992px) {
   .framework-img-under {
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
     right: 0;
     margin: auto;
-    max-width: 100%;
-  }
-  .framework-img-over {
-    position: absolute;
-    top: 30px;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 2;
     max-width: 100%;
   }
 }
