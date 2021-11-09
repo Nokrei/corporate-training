@@ -191,9 +191,7 @@ body {
   line-height: 42px;
   padding-top: 12px;
 }
-.training-card {
-  padding: 30px 70px 50px 70px;
-}
+
 .training-details {
   padding-top: 123px;
 }
@@ -369,4 +367,16 @@ body {
   bottom: 0;
   transform: rotate(180deg);
   z-index: -1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .team-img-grid {
+    padding-top: 43px;
+    padding-bottom: 93px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    column-gap: 5rem;
+    row-gap: 3rem;
+  }
 }
