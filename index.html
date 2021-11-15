@@ -74,16 +74,17 @@
               programs that address the key challenges you want to overcome.
             </p>
             <p class="pb-4 font-20-bold lh-24">Looking to upskill your team?</p>
-            <a href="#" rel="noreferrer noopener">
+        
               <button
                 class="
                   btn btn-padding-narrow blue-bg btn-text btn-border
                   font-white
                 "
+                data-bs-toggle="modal" data-bs-target="#contactModal"
               >
                 Get in touch
               </button>
-            </a>
+           
           </div>
           <div class="col-lg-4">
             <div class="grow-card bg-white card-shadow br-20">
@@ -482,6 +483,7 @@
         </p>
         <button
           class="btn blue-bg btn-padding btn-border btn-text font-white"
+          data-bs-toggle="modal" data-bs-target="#downloadModal"
         >
           Download now
         </button>
@@ -541,6 +543,7 @@
               <div class="col text-center">
                 <button
                   class="btn btn-border btn-padding font-blue btn-text bg-white"
+                  data-bs-toggle="modal" data-bs-target="#contactModal"
                 >
                   Contact us
                 </button>
@@ -717,13 +720,53 @@
         Let's deliver a learning program <br />
         with measurable impact for your team!
       </h2>
-      <a href="#" rel="noreferrer noopener” target="blank">
+     
         <button
           class="btn btn-padding btn-text btn-border font-white blue-bg"
+          data-bs-toggle="modal" data-bs-target="#contactModal"
         >
           Get in touch
         </button>
-      </a>
+    
     </div>
+
+    <!-- Download Modal Start-->
+<div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="downloadModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed ligula vulputate, laoreet massa auctor, viverra eros. Mauris cursus interdum mauris, ut iaculis augue accumsan id. Vestibulum ultrices in orci id auctor. Quisque mollis placerat varius. Sed hendrerit urna augue, eu ultricies massa convallis nec. Pellentesque porttitor congue nisl, quis placerat mi mattis vel. Proin eget tortor ligula. Proin pulvinar ac neque sed ullamcorper.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Download Modal End-->
+<!-- Contact Modal Start -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Donec sed nisi tempor, bibendum neque non, posuere nulla. Ut vestibulum magna dolor, in pretium neque maximus vitae. Integer nec arcu dui. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam in quam elit. Aliquam fermentum, lectus non iaculis faucibus, tortor lorem commodo justo, ut dignissim nisl eros ut ipsum. Pellentesque non ultrices risus.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Modal End-->
   </body>
 </html>
