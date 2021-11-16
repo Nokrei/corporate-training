@@ -398,9 +398,37 @@ body {
   }
 }
 @media only screen and (max-width: 576px) {
+  .grow {
+    padding: 50px 0;
+  }
+  .grow-card {
+    padding: 0 70px 20px 70px;
+  }
+  .training-details {
+    padding-top: 0;
+  }
   .blue-card {
     position: relative;
     height: 100%;
+  }
+  .why {
+    padding-top: 70px;
+  }
+  .why h2 {
+    padding-bottom: 50px;
+  }
+  .learn {
+    padding-bottom: 50px;
+  }
+  .framework {
+    padding-top: 0;
+    padding-bottom: 50px;
+  }
+  .framework h2 {
+    padding-bottom: 0;
+  }
+  .corporate {
+    padding-top: 50px;
   }
   .blue-card-desc h6 {
     font-size: 18px;
