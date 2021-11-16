@@ -335,13 +335,16 @@ body {
 }
 .blue-card {
   position: relative;
+  margin-bottom: 20px;
+  border-radius: 12px;
 }
 
 .blue-card img {
   position: absolute;
+
+  bottom: -20px;
+  left: 100px;
   z-index: -1;
-  width: 97%;
-  max-height: 100%;
 }
 .blue-card p {
   font-size: 20px;
@@ -398,7 +401,6 @@ body {
   .blue-card {
     position: relative;
     height: 100%;
-    max-width: 98%;
   }
   .blue-card-desc h6 {
     font-size: 18px;
@@ -406,12 +408,7 @@ body {
   .blue-card-desc p {
     font-size: 14px;
   }
-  .blue-card img {
-    position: absolute;
-    z-index: -1;
-    width: 97%;
-    height: 100%;
-  }
+
   .border-r,
   .border-btm {
     border: none;
