@@ -133,7 +133,7 @@ body {
 
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
 .intro-text {
@@ -147,7 +147,8 @@ body {
 
 .tags-container {
   position: absolute;
-  bottom: 52px;
+  display: inline-block;
+  bottom: 0px;
   left: 0;
   right: 0;
   width: 100%;
@@ -395,6 +396,12 @@ body {
     right: 0;
     margin: auto;
     max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .tags-container {
+    position: relative;
+    bottom: 0;
   }
 }
 @media only screen and (max-width: 576px) {
