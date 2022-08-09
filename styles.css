@@ -20,6 +20,9 @@ html,
 body {
   overflow-x: hidden;
 }
+ul {
+  padding: 0;
+}
 
 /* background styles */
 
@@ -112,6 +115,9 @@ body {
 .icon-margin2 {
   margin: -20px;
 }
+.icon-margin-left {
+  margin-left: -20px;
+}
 
 /* card styles */
 
@@ -186,7 +192,7 @@ body {
     url("./assets/images/bg-top.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
+  background-position: center;
   min-height: 100vh;
   position: relative;
 }
@@ -428,11 +434,35 @@ body {
     margin: auto;
     max-width: 100%;
   }
+  .container-offset {
+    background: transparent;
+  }
 }
 @media only screen and (max-width: 768px) {
   .tags-container {
     position: relative;
     bottom: 0;
+    width: 100%;
+  }
+  .tag-text {
+    font-size: 12px;
+  }
+  .tag-icon {
+    font-size: 3rem;
+  }
+  .border-btm,
+  .border-r {
+    border-bottom: none;
+    border-right: none;
+  }
+  .intro-fluid {
+    background-image: linear-gradient(
+        37deg,
+        rgba(11, 70, 150, 0.8) 100%,
+        transparent 0%
+      ),
+      url("./assets/images/bg-top.jpg");
+    min-height: 0;
   }
 }
 @media only screen and (max-width: 576px) {
