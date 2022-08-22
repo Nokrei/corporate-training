@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("fonts/icomoon.eot?orcar1");
+  src: url("fonts/icomoon.eot?orcar1#iefix") format("embedded-opentype"),
+    url("fonts/icomoon.ttf?orcar1") format("truetype"),
+    url("fonts/icomoon.woff?orcar1") format("woff"),
+    url("fonts/icomoon.svg?orcar1#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Digital-Marketing1:before {
+  content: "\e931";
+}
+.icon-Data:before {
+  content: "\e930";
+}
+.icon-Entrepreneurship:before {
+  content: "\e92f";
+}
+.icon-Coding:before {
+  content: "\e92e";
+}
+.icon-E-commerce:before {
+  content: "\e92d";
+}
+.icon-6:before {
+  content: "\e92b";
+}
+.icon-B2B-Marketing:before {
+  content: "\e918";
+}
+.icon-Icons-44:before {
+  content: "\e919";
+}
+.icon-Saudi-Retail-School:before {
+  content: "\e91a";
+}
+.icon-Entrepreneurship-2:before {
+  content: "\e91b";
+}
+.icon-Social-Media:before {
+  content: "\e91c";
+}
+.icon-1:before {
+  content: "\e91e";
+}
+.icon-5:before {
+  content: "\e91f";
+}
+.icon-2:before {
+  content: "\e920";
+}
+.icon-3:before {
+  content: "\e921";
+}
+.icon-Academy:before {
+  content: "\e911";
+}
+.icon-Community:before {
+  content: "\e912";
+}
+.icon-Programs:before {
+  content: "\e913";
+}
+.icon-Market-Entry:before {
+  content: "\e914";
+}
+.icon-Talent:before {
+  content: "\e915";
+}
+.icon-AI-Companies:before {
+  content: "\e90e";
+}
+.icon-Healthtech:before {
+  content: "\e90c";
+}
+.icon-Digital-Marketing:before {
+  content: "\e90d";
+}
+.icon-SaaS-Companies:before {
+  content: "\e90f";
+}
+.icon-Other-Tech:before {
+  content: "\e910";
+}
+.icon-Lease:before {
+  content: "\e900";
+}
+.icon--DMCC-Application:before {
+  content: "\e901";
+}
+.icon-5-Visa-quotes:before {
+  content: "\e902";
+}
+.icon-Bank-opening:before {
+  content: "\e903";
+}
+.icon-PO-box:before {
+  content: "\e904";
+}
+.icon-Access-to-Networking:before {
+  content: "\e905";
+}
+.icon-Community-Perk:before {
+  content: "\e906";
+}
+.icon-Upskilling:before {
+  content: "\e907";
+}
+.icon-Discounted-Opp:before {
+  content: "\e908";
+}
+.icon-Access-to-AL:before {
+  content: "\e909";
+}
+.icon-Access-to-Investors:before {
+  content: "\e90a";
+}
+.icon-Fintech-Startups:before {
+  content: "\e90b";
+}
