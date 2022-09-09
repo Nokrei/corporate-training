@@ -323,6 +323,12 @@ ul {
   z-index: -1;
 }
 
+@media only screen and (max-width: 1280px) {
+  .tags-container {
+    bottom: 0;
+  }
+}
+
 @media only screen and (max-width: 992px) {
   .framework-img-under {
     position: absolute;
@@ -375,5 +381,10 @@ ul {
   .border-r,
   .border-btm {
     border: none;
+  }
+}
+@media only screen and (max-height: 600px) {
+  .tags-container {
+    bottom: 0;
   }
 }
