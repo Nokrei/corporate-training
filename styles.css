@@ -193,7 +193,7 @@ ul {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
 }
 .intro-text {
@@ -208,7 +208,7 @@ ul {
 .tags-container {
   position: absolute;
   display: inline-block;
-  bottom: 100px;
+  bottom: 10vh;
   left: 0;
   right: 0;
   width: 70%;
@@ -325,7 +325,7 @@ ul {
 
 @media only screen and (max-width: 1280px) {
   .tags-container {
-    bottom: 0;
+    bottom: 5vh;
   }
 }
 
@@ -385,6 +385,6 @@ ul {
 }
 @media only screen and (max-height: 600px) {
   .tags-container {
-    bottom: 0;
+    bottom: 10vh;
   }
 }
