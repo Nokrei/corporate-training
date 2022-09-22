@@ -243,7 +243,6 @@ ul {
   height: 100%;
 }
 .container-offset {
-  margin-top: 100px;
   background: linear-gradient(0deg, #fff 20%, transparent 20%);
 }
 /* 100% width video placeholder */

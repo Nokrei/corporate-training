@@ -1,19 +1,18 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("fonts/icomoon.eot?orcar1");
-  src: url("fonts/icomoon.eot?orcar1#iefix") format("embedded-opentype"),
-    url("fonts/icomoon.ttf?orcar1") format("truetype"),
-    url("fonts/icomoon.woff?orcar1") format("woff"),
-    url("fonts/icomoon.svg?orcar1#icomoon") format("svg");
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?s5pjkk');
+  src:  url('fonts/icomoon.eot?s5pjkk#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?s5pjkk') format('truetype'),
+    url('fonts/icomoon.woff?s5pjkk') format('woff'),
+    url('fonts/icomoon.svg?s5pjkk#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -26,6 +25,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-Icons2:before {
+  content: "\e916";
+}
 .icon-Digital-Marketing1:before {
   content: "\e931";
 }
@@ -73,18 +75,23 @@
 }
 .icon-Academy:before {
   content: "\e911";
+  color: #fff;
 }
 .icon-Community:before {
   content: "\e912";
+  color: #fff;
 }
 .icon-Programs:before {
   content: "\e913";
+  color: #fff;
 }
 .icon-Market-Entry:before {
   content: "\e914";
+  color: #fff;
 }
 .icon-Talent:before {
   content: "\e915";
+  color: #fff;
 }
 .icon-AI-Companies:before {
   content: "\e90e";
